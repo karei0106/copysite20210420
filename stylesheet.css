@@ -1,0 +1,47 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.sidebar{
+	background-color: violet;
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	right: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.side-logo{
+	height: 22.42px;
+	width: 87px;
+	padding: 25% 0 40px 0;
+}
+
+.side-contents{
+	padding-left: 16%;
+}
+
+.side-menu li a{
+	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+	font-size: 14px;
+}
+
+.side-menu li a:hover{
+	text-decoration: underline;
+}
+
+.side-menu li{
+	padding-bottom: 25px;
+}
+
+.side-icon .fab{
+	padding: 45px 10px 0 0;
+}
+
+.side-icon .fab:hover{
+	opacity: 0.8;
+}
